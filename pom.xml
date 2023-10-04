@@ -34,12 +34,23 @@
   </dependencies>
   <build>
     <finalName>webDemo</finalName>
+    <build>
     <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-war-plugin</artifactId>
+            <version>LATEST_VERSION</version> <!-- Replace LATEST_VERSION with the latest version of maven-war-plugin -->
+        </plugin>
+        <!-- Other plugins -->
+    </plugins>
+</build>
+
+<!--     <plugins>
     	<plugin>
     		<groupId>org.mortbay.jetty</groupId>
     		<artifactId>jetty-maven-plugin</artifactId>
     		<version>8.1.14.v20131031</version>
     	</plugin>
     </plugins>
-  </build>
+  </build> -->
 </project>
