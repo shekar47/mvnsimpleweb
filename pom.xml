@@ -36,9 +36,9 @@
     <finalName>webDemo</finalName>
     <plugins>
         <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
+           <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-war-plugin</artifactId>
-            <version>LATEST_VERSION</version> <!-- Replace LATEST_VERSION with the latest version of maven-war-plugin -->
+            <version>3.3.2</version>
         </plugin>
         <!-- Other plugins -->
     </plugins>
