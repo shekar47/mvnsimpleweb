@@ -44,12 +44,4 @@
     </plugins>
 </build>
 
-<!--     <plugins>
-    	<plugin>
-    		<groupId>org.mortbay.jetty</groupId>
-    		<artifactId>jetty-maven-plugin</artifactId>
-    		<version>8.1.14.v20131031</version>
-    	</plugin>
-    </plugins>
-  </build> -->
 </project>
